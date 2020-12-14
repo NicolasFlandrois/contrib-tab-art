@@ -23,13 +23,22 @@ For exemple:
 
 - We would like to write *"4 Hire"* in the contrib tab.
 
-    >          xx       xx     xx     xx     xxxxxx       xxxxxxx
-    >         xx        xx     xx            xx   xx      xx
-    >        xx         xx     xx     xx     xx    xx     xx
-    >       xx  xx      xxxxxxxxx     xx     xx    xx     xxxxx
-    >      xxxxxxx      xx     xx     xx     xxxxxxx      xx
-    >           xx      xx     xx     xx     xx  xx       xx
-    >           xx      xx     xx     xx     xx   xx      xxxxxxx
+    >          xx           xx     xx     xx     xxxxxx       xxxxxxx
+    >         xx            xx     xx            xx   xx      xx
+    >        xx             xx     xx     xx     xx    xx     xx
+    >       xx  xx          xxxxxxxxx     xx     xx    xx     xxxxx
+    >      xxxxxxx          xx     xx     xx     xxxxxxx      xx
+    >           xx          xx     xx     xx     xx  xx       xx
+    >           xx          xx     xx     xx     xx   xx      xxxxxxx
 
+- Drawing simple shapes (here bellow: a Square and a Heart).
 
-- Drawing simple shapes
+```
+      x    xxxxxxxxxxxxx        xxx   xxx        xxxxxxxxxxxxx
+      x    xxxxxxxxxxxxx       x   x x   x       xx         xx
+      x    xxxxxxxxxxxxx       x    x    x       xx   xxx   xx
+      x    xxxxxxxxxxxxx        x       x        xx   x x   xx
+      x    xxxxxxxxxxxxx         x     x         xx   xxx   xx
+      x    xxxxxxxxxxxxx          x   x          xx         xx
+      x    xxxxxxxxxxxxx            x            xxxxxxxxxxxxx
+```
