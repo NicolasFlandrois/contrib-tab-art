@@ -17,7 +17,7 @@ Then we can consider the contrib tab as a canvas of:
 - Height **7** cells
 - Width *infinit* cells
 
-Using this canvas, and restrictions, the ultimate objectif is to create some kind of Pixel Art, either drawing shapes, or Writting.
+Using this canvas, and restrictions, the ultimate objectif is to create some kind of Pixel Art (or simile to ASCII art), either drawing shapes, or Writting.
 
 For exemple:
 
