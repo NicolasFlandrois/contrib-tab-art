@@ -106,7 +106,7 @@ delta = d_now - d_start
 # print(type(delta.days))
 
 # 3. Start iteration through 1D canvas, + Repeat All process 5 Times
-for _ in range(5):
+for _ in range(15):
     for i, n in enumerate(canvas_flat):
         # print("i\t", i)
         # print('n\t', n)
