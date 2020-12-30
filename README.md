@@ -31,6 +31,9 @@ For exemple:
     >           xx          xx     xx     xx     xx  xx       xx
     >           xx          xx     xx     xx     xx   xx      xxxxxxx
 
+Which Renders into:
+![4 Hire Exemple](./Git_Hub_4_Hire_Exemple.png)
+
 - Drawing simple shapes (here bellow: a Square and a Heart).
 
 ```
