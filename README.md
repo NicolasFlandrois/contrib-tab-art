@@ -42,3 +42,6 @@ For exemple:
       x    xxxxxxxxxxxxx          x   x          xx         xx
       x    xxxxxxxxxxxxx            x            xxxxxxxxxxxxx
 ```
+# NB:
+
+In order for the changes to be seen on your GitHub Contrib table, you'll need to change some settings. On top Right corner of your Contribution table, clic on `Contribution Settings`, and at least activate `Private contributions`.
