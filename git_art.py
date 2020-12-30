@@ -105,23 +105,23 @@ delta = d_now - d_start
 # print(delta.days)
 # print(type(delta.days))
 
-# 3. Start iteration through 1D canvas
-
-for i, n in enumerate(canvas_flat):
-    # print("i\t", i)
-    # print('n\t', n)
+# 3. Start iteration through 1D canvas, + Repeat All process 5 Times
+for _ in range(5):
+    for i, n in enumerate(canvas_flat):
+        # print("i\t", i)
+        # print('n\t', n)
 
 # 4. If n == "x" then commit, else do nothing.
 # a. Get enumaration Index i and element n
 # b. If n == 'x' at index i apply git commit bellow. Else Do nothing.
 
-    if n == "x":
-        d = str(i+delta.days) + ' day ago'
-        # print(d)
-        ## Open a text file and modify it
-        with open('bot.txt', 'a') as file:
-            file.write(d)
-        ## Add bot.txt to staging area
-        os.system('git add bot.txt')
-        ## Commit it
-        os.system('git commit --date="' + d + '" -m "github Art"')
+        if n == "x":
+            d = str(i+delta.days) + ' day ago'
+            # print(d)
+            ## Open a text file and modify it
+            with open('bot.txt', 'a') as file:
+                file.write(d)
+            ## Add bot.txt to staging area
+            os.system('git add bot.txt')
+            ## Commit it
+            os.system('git commit --date="' + d + '" -m "github Art"')
