@@ -3,10 +3,12 @@ from pprint import pprint
 import itertools
 from datetime import datetime
 
-# Basic Script
+# # Basic Script
 # # Number of days you want to make commits
 # # for i in range(1, 365*2 + 1):
-# for i in range(1, 30+1):
+# # for i in range(1, 30+1):
+# delta = datetime.now() - datetime(2021, 1, 1)
+# for i in range(delta.days + 1):
 #     d = str(i) + ' day ago'
 #     ## Open a text file and modify it
 #     with open('bot.txt', 'a') as file:
@@ -16,8 +18,8 @@ from datetime import datetime
 #     ## Commit it
 #     os.system('git commit --date="' + d + '" -m "github Art"')
 
-## push the commit to github
-# os.system('git push -u origin master')
+# # push the commit to github
+# # os.system('git push -u origin master')
 
 
 ######
