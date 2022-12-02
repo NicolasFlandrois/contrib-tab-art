@@ -7,7 +7,7 @@ from datetime import datetime
 # # Number of days you want to make commits
 # # for i in range(1, 365*2 + 1):
 # # for i in range(1, 30+1):
-# delta = datetime.now() - datetime(2021, 1, 1)
+# delta = datetime.now() - datetime(2022, 1, 1)
 # for i in range(delta.days + 1):
 #     d = str(i) + ' day ago'
 #     ## Open a text file and modify it
