@@ -109,7 +109,7 @@ canvas_flat.reverse()
 
 d_now = datetime.now()
 # d_start = datetime(2020, 12, 26)
-d_start = datetime(2023, 1, 1)
+d_start = datetime(2023, 12, 31)
 delta = d_now - d_start
 # print(delta.days)
 # print(type(delta.days))
@@ -125,9 +125,9 @@ for _ in range(15):
 # b. If n == 'x' at index i apply git commit bellow. Else Do nothing.
 
         if n == "x":
-            d = str(i+delta.days) + ' day ago'
+            d = str(i + delta.days) + ' day ago'
             # print(d)
-            ## Open a text file and modify it
+            # Open a text file and modify it
             with open('bot.txt', 'a') as file:
                 file.write(d)
             ## Add bot.txt to staging area
