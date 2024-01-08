@@ -113,6 +113,7 @@ d_start = datetime(2023, 12, 30)  # Date for which you want the graphic/Art to e
 # e.g. the Dec 30th 2023 will display 4 Hire in the last months of 2023.
 # Be carefull of the alignement of days. cf Github contrib tab. The date chosen should be a saturday on a non troncated week.
 # e.g. 2023 dec 31 is on a Sunday. In order to make it work correctly we position it on the previous Saturday > 2023-12-30
+# We'll need about 38 to 40 weeks to display the "4 Hire" Github Contrib Tab Art
 delta = d_now - d_start
 # print(delta.days)
 # print(type(delta.days))
