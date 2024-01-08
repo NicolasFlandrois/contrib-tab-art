@@ -111,6 +111,8 @@ d_now = datetime.now()
 # d_start = datetime(2020, 12, 26)
 d_start = datetime(2023, 12, 30)  # Date for which you want the graphic/Art to end.
 # e.g. the Dec 30th 2023 will display 4 Hire in the last months of 2023.
+# Be carefull of the alignement of days. cf Github contrib tab. The date chosen should be a saturday on a non troncated week.
+# e.g. 2023 dec 31 is on a Sunday. In order to make it work correctly we position it on the previous Saturday > 2023-12-30
 delta = d_now - d_start
 # print(delta.days)
 # print(type(delta.days))
