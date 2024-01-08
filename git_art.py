@@ -109,7 +109,7 @@ canvas_flat.reverse()
 
 d_now = datetime.now()
 # d_start = datetime(2020, 12, 26)
-d_start = datetime(2018, 10, 6)
+d_start = datetime(2023, 1, 1)
 delta = d_now - d_start
 # print(delta.days)
 # print(type(delta.days))
